@@ -1,0 +1,13 @@
+nav a {
+    position: relative;
+    transition: all 0.7s;
+}
+
+nav a:hover ::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+
+}
+
